@@ -1,26 +1,24 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>You did it!</h1>
-  <span is-="badge">badge</span>
+  <div name="main">
+    <h2># Chakradhar Gorthi</h2>
+    <h1>You did it!</h1>
+    <span is-="badge">badge</span>
+  </div>
 </template>
 
-<style>
-@layer base, utils, components;
+<style scoped>
 
-@import '@webtui/css/base.css';
+div[name="main"] {
+  padding: 5ch;
+  box-sizing: border-box;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
 
-
-/* Utils */
-@import '@webtui/css/utils/box.css';
-
-/* Components */
-@import '@webtui/css/components/button.css';
-@import '@webtui/css/components/typography.css';
-@import '@webtui/css/components/badge.css';
-
-/* Import theme AFTER all other WebTUI CSS */
-@import '@webtui/theme-catppuccin';
-
-
+h2 {
+  font-size: 4lh;
+}
 </style>
