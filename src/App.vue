@@ -13,7 +13,7 @@ import Header from './components/header.vue';
 <style scoped>
 
 #main {
-  padding: 5ch;
+  padding:  2lh 17lh;
   box-sizing: border-box;
   position: fixed;
   height: 100%;

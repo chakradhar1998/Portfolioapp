@@ -28,6 +28,7 @@ span {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav#nav-links {
@@ -37,5 +38,6 @@ nav#nav-links {
 }
 h2 {
   box-sizing: content-box;
+  font-size: 2lh;
 }
 </style>
